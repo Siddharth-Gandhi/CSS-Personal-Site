@@ -1,0 +1,150 @@
+/********************************** TAGS ************************************/
+a {
+	color: #e84545;
+}
+
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: "Merriweather Sans", sans-serif;
+	background-color: #ece8e1;
+	color: #8b978f;
+}
+
+h1 {
+	margin: 50px auto 0 auto;
+	font-size: 5.625rem;
+	font-family: "Sacramento", cursive;
+	color: #f5f5f5;
+	line-height: 2;
+}
+
+h2 {
+	font-family: "Merriweather Sans", cursive;
+	font-size: 2.5rem;
+	font-weight: normal;
+	color: #0f1923;
+}
+
+h3 {
+	font-family: "Merriweather Sans", cursive;
+	color: #0f1923;
+}
+
+hr {
+	border-top: 0.6rem dotted #0f1923;
+	width: 4rem;
+	margin: 2rem auto;
+	/*Rest of stuff here*/
+}
+
+/********************************** CLASSES ************************************/
+.bottom-cloud {
+	position: absolute;
+	left: 30%;
+}
+
+.bottom-container {
+	background-color: #0f1923;
+	margin-bottom: 0px;
+	border-bottom: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.digital {
+	text-decoration: underline;
+}
+
+.middle-container {
+	margin: 5.5rem;
+	margin-top: 3rem;
+}
+
+.skill-row {
+	width: 50%;
+	margin: 3rem auto;
+	text-align: left;
+	line-height: 2;
+	padding: 10px;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.google-image {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+}
+
+.google-skill-desc {
+	/* clear: left; */
+}
+
+.sleep-image {
+	width: 20%;
+	float: right;
+	margin-left: 30px;
+}
+
+.sleep-skill-desc {
+	/* clear: right; */
+}
+
+.top-cloud {
+	position: absolute;
+	top: 50px;
+	right: 450px;
+}
+
+.top-container {
+	background-color: #364f6b;
+	/* border: 10px solid;
+	border-color: black; */
+	/* height: 200px; */
+	padding: 100px;
+	padding-bottom: 0px;
+	position: relative;
+	/* width: 200px; */
+}
+
+.profile {
+	margin-bottom: 4rem;
+}
+
+.skills {
+	margin-top: 4rem;
+}
+
+.contact-me {
+	margin-top: 4rem;
+}
+
+.contact-me-para {
+	width: 50%;
+	text-align: center;
+	margin: 2rem auto;
+}
+
+.email-button {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 20px;
+	background-color: #e84545;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+/********************************** IDS ************************************/
+
+#intro {
+	width: 25%;
+	text-align: center;
+	margin: 1rem auto;
+}
